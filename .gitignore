@@ -10,3 +10,4 @@ Thumbs.db
 .env.*
 *-backup.txt
 whoop65b-backup.txt
+debug.log
