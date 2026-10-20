@@ -22,6 +22,7 @@
 | [assembly.md](assembly.md) | 装配、焊接、检查表、首飞流程 |
 | [betaflight.md](betaflight.md) | 刷机、ELRS、电机、PID/滤波起步 |
 | [frame/README.md](frame/README.md) | 机架关键尺寸与 3D 打印参数 |
+| [pdd-100-toy-quad.md](pdd-100-toy-quad.md) | 拼多多约 100 元玩具四轴结构与对比 |
 
 ## 系统框图
 
