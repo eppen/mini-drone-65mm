@@ -58,6 +58,20 @@
 
 ## 4. 简易模型参数（自行建模）
 
+### 4.1 MacBook Pro + Blender（推荐快速出 `.blend`）
+
+1. 从 [blender.org](https://www.blender.org/download/) 安装 Blender（Apple Silicon 选 macOS ARM）。  
+2. 打开 Blender → 顶部菜单 **Scripting** → **Open** 打开本目录 [`whoop65b_blender.py`](whoop65b_blender.py)。  
+3. 点 **Run Script**：生成 Whoop-65B 机架（底板 + 四涵道 + 电机孔 + 电池槽）。  
+4. **File → Save As** 存为 `Whoop65B_Frame.blend`；需要打印再 **Export → STL**。  
+5. 出设计图：场景里选相机 `Whoop65B_Top`（俯视）或 `Whoop65B_Iso`（轴测）→ `F12` 渲染。
+
+也可用终端（把路径换成你的仓库位置）：
+
+```bash
+/Applications/Blender.app/Contents/MacOS/Blender --background --python /path/to/mini-drone-65mm/frame/whoop65b_blender.py
+```
+
 用 Fusion 360 / FreeCAD / OpenSCAD 时可按下列布尔思路：
 
 1. 底板：70×70×1.2 mm 圆角矩形（或十字臂）。  
